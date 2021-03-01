@@ -1,5 +1,5 @@
 {
-  "name": "react-native-lightbox-v2",
+  "name": "react-native-lightbox-v3",
   "version": "0.8.7",
   "description": "Images etc in Full Screen Lightbox Popovers for React Native",
   "main": "Lightbox.js",
@@ -21,14 +21,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cbbfcd/react-native-lightbox.git"
+    "url": "https://github.com/niklaus-aaqua/react-native-lightbox.git"
   },
   "author": "Joel Arvidsson <joel@oblador.se>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cbbfcd/react-native-lightbox/issues"
+    "url": "https://github.com/niklaus-aaqua/react-native-lightbox/issues"
   },
-  "homepage": "https://github.com/cbbfcd/react-native-lightbox",
+  "homepage": "https://github.com/niklaus-aaqua/react-native-lightbox",
   "dependencies": {
     "prop-types": "^15.7.2"
   }
