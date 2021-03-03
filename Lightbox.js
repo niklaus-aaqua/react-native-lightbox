@@ -100,7 +100,7 @@ const Lightbox = (props) => {
       <Animated.View style={{ opacity: layoutOpacity.current }}>
         <TouchableOpacity
           underlayColor={props.underlayColor}
-          activeOpacity={0.64}
+          activeOpacity={props.activeOpacity}
           onPress={open}
           onLongPress={props.onLongPress}
         >
@@ -114,6 +114,7 @@ const Lightbox = (props) => {
 
 Lightbox.propTypes = {
   activeProps: PropTypes.object,
+  activeOpacity: PropTypes.number,
   renderHeader: PropTypes.func,
   renderContent: PropTypes.func,
   underlayColor: PropTypes.string,
