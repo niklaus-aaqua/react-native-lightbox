@@ -270,6 +270,7 @@ LightboxOverlay.propTypes = {
   onClose: PropTypes.func,
   willClose: PropTypes.func,
   swipeToDismiss: PropTypes.bool,
+  activeOpacity: PropTypes.number,
 };
 
 LightboxOverlay.defaultProps = {
