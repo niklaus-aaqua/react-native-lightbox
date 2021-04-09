@@ -142,7 +142,7 @@ const LightboxOverlay = (props) => {
       StatusBar.setHidden(false, "fade");
     }
 
-    setIsAnimating(true);
+    // setIsAnimating(true);
     Animated.spring(openVal.current, {
       toValue: 0,
       ...props.springConfig,
